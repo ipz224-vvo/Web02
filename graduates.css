@@ -12,17 +12,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 .main{
-
     background-color: white;
-
-
 }
-
-
 .frame{
     min-width: 190px;
 }
@@ -38,15 +31,15 @@ img{
     justify-content: center;
 }
 .quote-block{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-right: 20px;
+    margin-top: 20px;
 
     max-width: 700px;
 }
 .op-quote{
+
     position: absolute;
     display: block;
     width: 20px;
