@@ -1,0 +1,125 @@
+
+/*.formtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    width: 100%;
+    max-width: 200px;
+    background-color: aqua;
+
+
+}
+.Fform{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    width: 100%;
+    max-width: 200px;
+
+
+    background-color: red;
+}*/
+body > div {
+    font-family: Arial;
+    width: 500px;
+    margin: auto auto;
+    background-color: aqua;
+}
+
+form {
+    display: grid;
+    background-color: #eeeeee;
+    grid-template-columns: 1fr 2fr;
+    border: solid 1px black;
+
+}
+input, textarea{
+    font-family: Arial;
+    margin-right: 15px;
+    max-width: 330px;
+
+    font-size: 18px;
+
+    height: 25px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+textarea {
+    background-color: #c5ffc5;
+    border: solid 1.5px #291d6d;
+
+    height: 50px;
+    max-height: 100px;
+}
+form > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+}
+form > div:nth-of-type(1)>label{
+    font-weight: normal;
+    align-self: center;
+    margin-left: -10px;
+}
+form > div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    font-size: 10px;
+}
+form > div:nth-of-type(2) > label{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+div > label{
+    display: grid;
+    align-items: start;
+    align-self: center;
+    justify-content: left;
+    margin-right: 5px;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 5px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    font-size: 18px;
+}
+
+[type="Email"] {
+    border: solid 1.5px #a1a258;
+    background-color: #feffb3;
+}
+[type="password"]{
+    border: solid 1.5px #7f2b5c;
+    background-color: #fac2ec;
+}
+[type="text"]{
+    border: solid 1.5px #a1a258;
+    background-color: #feffb3;
+}
+[list="cityes"]{
+    border: solid 1.5px #291d6d;
+    background-color: #bbb7fa;
+}
+[type="button"]{
+    border: 0;
+    background-color: #adf3a6;
+}
+[type="reset"]{
+    border: 0;
+    background-color: #ed939c;
+}
+
+
+
+
+
+

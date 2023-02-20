@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div>
+
+    <form action="" method="post">
+
+        <label>E-mail:</label>
+        <input type="email" name="Email">
+        <label>Пароль:</label>
+        <input type="password" name="Fpassword">
+        <label>Пароль ще раз:</label>
+        <input type="password" name="Fpassword">
+
+        <label>Ім'я:</label>
+        <input type="text" name="SecondName">
+        <label>Прізвище:</label>
+        <input type="text" name="FirstName">
+
+        <label>Стать:</label>
+        <div>
+            <input type="radio" name="Male"/>
+            <label>чоловіча</label>
+            <input type="radio" name="Male"/>
+            <label>жіноча</label>
+        </div>
+
+        <label>Місто: </label>
+        <input list="cityes">
+        <datalist id="cityes">
+            <option value="Київ"></option>
+            <option value="Житомир"></option>
+            <option value="Херсон"></option>
+            <option value="Харків"></option>
+            <option value="Одеса"></option>
+            <option value="Миколаїв"></option>
+            <option value="Донецьк"></option>
+            <option value="Луганськ"></option>
+            <option value="Сімферополь"></option>
+            <option value="Львів"></option>
+            <option value="Тернопіль"></option>
+            <option value="Запоріжжя"></option>
+            <option value="Рівне"></option>
+            <option value="Чернігів"></option>
+            <option value="Чернівці"></option>
+            <option value="Черкаси"></option>
+            <option value="Полтава"></option>
+            <option value="Хмельницький"></option>
+            <option value="Кривий Ріг"></option>
+            <option value="Вінниця"></option>
+            <option value="Суми"></option>
+            <option value="Івано-Франківськ"></option>
+            <option value="Дніпро"></option>
+            <option value="Кропивницький"></option>
+        </datalist>
+
+        <label>Про себе:</label>
+        <textarea name="aboutYourself"></textarea>
+
+        <label>Погодження:</label>
+        <div>
+            <input type="checkbox">
+            <label>Отримувати розсилку сайту</label>
+
+            <input type="checkbox">
+            <label>Погоджуюсь з правилами сайту</label>
+
+            <input type="checkbox">
+            <label>Заховати профіль на сайті</label>
+        </div>
+
+        <label></label>
+        <div>
+            <input type="button" name="Register" value="Зареєструватись">
+            <input type="reset" name="Clear" value="Очистити">
+        </div>
+
+
+        <!---<button></button>-->
+
+
+
+
+    </form>
+
+    <!--<form action="" method="post" class="grid">
+        <div><label for="Email">E-mail:</label></div>
+        <div><input type="email" name="Email" id="Email"></div>
+        <div><label for="Fpassword">Пароль:</label></div>
+        <div><input type="password" name="Fpassword" id="Fpassword"></div>
+        <div><label for="Spassword">Пароль ще раз:</label></div>
+        <div><input type="password" name="Fpassword" id="Spassword"></div>
+
+        <div><label for="SecondName">Ім'я:</label></div>
+        <div><input type="text" name="FirstName" id="SecondName" ></div>
+        <div><label for="FirstName">Прізвище:</label></div>
+        <div><input type="text" name="FirstName" id="FirstName" ></div>
+
+    </form>-->
+
+</div>
+</body>
+</html>
